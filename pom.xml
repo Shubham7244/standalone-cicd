@@ -40,7 +40,7 @@
 					  <target>server-name</target>
 					  <targetType>server</targetType>
 					</armDeployment>
-				</configuratio>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
