@@ -30,8 +30,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<classifier>mule-application</classifier>
-				</configuration>
+					<armDeployment>
+					  <uri>https://anypoint.mulesoft.com</uri>
+					  <muleVersion>4.6.3</muleVersion>
+					  <username>Shubhams_05</username>
+					  <password>Mulesoft@24</password>
+					  <applicationName>onPreme-7244</applicationName>
+					  <environment>dev</environment>
+					  <target>server-name</target>
+					  <targetType>server</targetType>
+					</armDeployment>
+				</configuratio>
 			</plugin>
 		</plugins>
 	</build>
